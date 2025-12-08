@@ -81,3 +81,106 @@ FastAPI сам вызывает асинхронную функцию, когд�
 pip install aiosqlite
 ```
 
+---
+#### 🔹 START PROJECT
+```bash
+mkdir app/src && cd app
+
+python3 -m venv venv && source venv/bin/activate
+
+pip install "fastapi[standard]"
+pip install python-dotenv
+pip install pydantic-settings
+pip install SQLAlchemy
+
+touch {.env,.env.dist,.gitignore}
+
+cd src && touch {main,__init__,config}.py
+
+mkdir requirements \
+	&& cd requirements \
+	&& touch {base,dev,test,prod}.txt \
+	&& cd ../
+
+mkdir user && cd user && touch {router,schemas,models,dependencies,config,constans,exceptions,service,utils}.py
+```
+
+🔸 **src/main.py**
+```python
+from fastapi import FastAPI  
+import uvicorn  
+  
+app = FastAPI()  
+  
+@app.get("/")  
+async def root():  
+    return {  
+        "app": "API",  
+        "env": 'local',  
+        "version": 1.0  
+    }  
+  
+if __name__ == "__main__":  
+    uvicorn.run("main:app", reload=True)
+```
+
+🔸 **запускаем сервер**
+```bash
+ python3 src/main.py
+```
+---
+#### 🔹 STRUCTURA PROJECT
+Это паттерн, часто называемый ==**"Feature-based structure"**== — всё, что связано с одной сущностью, хранится в одной папке
+```bash
+fastapi-project
+├── alembic/
+├── src
+│   ├── auth
+│   │   ├── router.py # Эндпоинты (роуты)
+│   │   ├── schemas.py  # Pydantic модели для запросов/ответов
+│   │   ├── models.py  # ORM модели (SQLAlchemy и т.п.)
+│   │   ├── dependencies.py # Зависимости FastAPI
+│   │   ├── config.py  # local configs
+│   │   ├── constants.py # Константы модуля
+│   │   ├── exceptions.py # Кастомные исключения
+│   │   ├── service.py # Бизнес-логика
+│   │   └── utils.py # Вспомогательные функции
+│   ├── aws
+│   │   ├── client.py  # client model for external service communication
+│   │   ├── schemas.py
+│   │   ├── config.py
+│   │   ├── constants.py
+│   │   ├── exceptions.py
+│   │   └── utils.py
+│   └── posts
+│   │   ├── router.py
+│   │   ├── schemas.py
+│   │   ├── models.py
+│   │   ├── dependencies.py
+│   │   ├── constants.py
+│   │   ├── exceptions.py
+│   │   ├── service.py
+│   │   └── utils.py
+│   ├── config.py  # global configs
+│   ├── models.py  # global models
+│   ├── exceptions.py  # global exceptions
+│   ├── pagination.py  # global module e.g. pagination
+│   ├── database.py  # db connection related stuff
+│   └── main.py
+├── tests/
+│   ├── auth
+│   ├── aws
+│   └── posts
+├── templates/
+│   └── index.html
+├── requirements
+│   ├── base.txt
+│   ├── dev.txt
+│   └── prod.txt
+├── .env
+├── .gitignore
+├── logging.ini
+└── alembic.ini
+```
+
+
