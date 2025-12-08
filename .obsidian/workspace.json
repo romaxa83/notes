@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/backend/Python/base/011_virtualenv.md",
+                "file": "Programming/backend/php/laravel/db/004_relations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "011_virtualenv"
+              "title": "004_relations"
             }
           },
           {
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/backend/Python/base/011_virtualenv.md",
+                "file": "Programming/backend/php/laravel/db/004_relations.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для 011_virtualenv"
+              "title": "Обратные ссылки для 004_relations"
             }
           },
           {
@@ -141,12 +141,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/backend/Python/base/011_virtualenv.md",
+                "file": "Programming/backend/php/laravel/db/004_relations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из 011_virtualenv"
+              "title": "Исходящие ссылки из 004_relations"
             }
           },
           {
@@ -184,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/backend/Python/base/011_virtualenv.md",
+                "file": "Programming/backend/php/laravel/db/004_relations.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура 011_virtualenv"
+              "title": "Структура 004_relations"
             }
           }
         ],
@@ -213,6 +213,18 @@
   },
   "active": "940af27dda51ca2a",
   "lastOpenFiles": [
+    "Programming/backend/php/laravel/db/003_seeder.md",
+    "Programming/backend/php/laravel/db/004_relations.md",
+    "Programming/backend/php/laravel/db/002_migration.md",
+    "Programming/backend/Python/base/001_variable.md",
+    "Programming/backend/php/laravel/db/001_eloquent.md",
+    "Programming/backend/php/laravel/001_start.md",
+    "Programming/img/Без названия.md",
+    "Programming/backend/php/laravel/db",
+    "Programming/backend/php/laravel/002_router.md",
+    "Programming/backend/php/laravel/003_console.md",
+    "Programming/backend/Python/base/011_virtualenv.md",
+    "Programming/backend/php/laravel",
     "Programming/backend/Python/libs/pydantic.md",
     "Programming/backend/Python/libs/index.md",
     "Programming/backend/php/base/003_composer.md",
@@ -228,16 +240,6 @@
     "Programming/backend/Python/base/013_генераторы.md",
     "Programming/backend/Python/base/Dataclass.md",
     "Programming/backend/Python/libs/fast-api/start.md",
-    "Programming/git/git_practice.md",
-    "Programming/git/git_devops.md",
-    "Programming/git/git.md",
-    "Programming/backend/Python/start.md",
-    "Programming/backend/Python/base/001_variable.md",
-    "Programming/backend/Python/libs/sqlalchemy.md",
-    "Programming/backend/Python/base/011_virtualenv.md",
-    "Programming/linux/001_base_command.md",
-    "Programming/backend/php/base/002_start.md",
-    "Programming/backend/GO/base/001_start.md",
-    "Programming/backend/php/base/001_php_ini.md"
+    "Programming/git/git_practice.md"
   ]
 }
