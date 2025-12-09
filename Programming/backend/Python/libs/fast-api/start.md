@@ -95,7 +95,7 @@ pip install SQLAlchemy
 
 touch {.env,.env.dist,.gitignore}
 
-cd src && touch {main,__init__,config}.py
+cd src && touch {main,__init__,config,database}.py
 
 mkdir requirements \
 	&& cd requirements \
@@ -129,7 +129,104 @@ if __name__ == "__main__":
  python3 src/main.py
 ```
 ---
+#### 🔹 Подключаем бд
+
+##### 🔸 Postgres
+
+устанавливаем такие пакеты
+- **psycopg2-binary** — драйвер для PostgreSQL
+- **Alembic** — инструмент для управления миграциями
+```bash
+pip install sqlalchemy psycopg2-binary alembic
+```
+
+- Создаем файл с конфигом или добавляем в существующий
+```python
+from pydantic_settings import BaseSettings, SettingsConfigDict  
+  
+class DatabaseConfig(BaseSettings):  
+    model_config = SettingsConfigDict(  
+        env_file=".env",  
+        env_prefix="DB_", 
+        extra="ignore"  
+    )  
+     # значение по умолчанию  
+    host: str = "localhost"  
+    port: int = 5432  
+    username: str  
+    password: str  
+    database: str  
+  
+    def url(self) -> str:  
+        return f"postgresql+psycopg2://{self.username}:{self.password}@{self.host}:{self.port}/{self.database}"  
+  
+class Config(BaseSettings):  
+    db: DatabaseConfig = DatabaseConfig()
+```
+
+- в .env добавляем переменные для подключения
+```env
+DB_HOST=localhost  
+DB_DATABASE=db  
+DB_PORT=5432  
+DB_USERNAME=root  
+DB_PASSWORD=password
+```
+
+- создаем файл -`database.py` (где будет сессия подключения к бд)
+```python
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker, declarative_base
+from src.config import Config
+
+config = Config()
+
+engine = create_engine(
+    config.db.url,
+    echo=True,
+    pool_pre_ping=True,
+)
+
+SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+Base = declarative_base()
+
+def get_db():
+    db = SessionLocal()
+    try:
+        yield db
+    finally:
+        db.close()
+```
+
+-  Инициализация Alembic и настраиваем конфигурацию Alembic (`alembic/env.py`), более подробно про Alembic здесь - [[alembic]]
+
+- Создаем модели 
+```python
+from sqlalchemy import Column, Integer, String, DateTime  
+from datetime import datetime  
+from src.database import Base  
+  
+class User(Base):  
+    __tablename__ = "users"  
+    id = Column(Integer, primary_key=True, index=True)  
+    name = Column(String(255), nullable=False)  
+    email = Column(String(255), unique=True, nullable=False)  
+    created_at = Column(DateTime, default=datetime.utcnow)
+```
+
+- Создание первой миграции
+```bash
+alembic revision --autogenerate -m "Initial migration"
+```
+
+- Применение миграций
+```bash
+alembic upgrade head
+```
+
+---
 #### 🔹 STRUCTURA PROJECT
+
 Это паттерн, часто называемый ==**"Feature-based structure"**== — всё, что связано с одной сущностью, хранится в одной папке
 ```bash
 fastapi-project
@@ -182,5 +279,8 @@ fastapi-project
 ├── logging.ini
 └── alembic.ini
 ```
+
+---
+
 
 
