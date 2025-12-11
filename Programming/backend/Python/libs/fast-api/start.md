@@ -1,5 +1,6 @@
 
 - Лучшие практики для написния кода на fastapi  - https://github.com/zhanymkanov/fastapi-best-practices
+- Awesome FastAPI - https://github.com/mjhea0/awesome-fastapi
 - Фильтрация и пагинация в FastAPI - https://habr.com/ru/articles/714570/
 
 

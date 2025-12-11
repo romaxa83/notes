@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/backend/php/laravel/021_logger.md",
+                "file": "Programming/backend/patterns/Bridge.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "021_logger"
+              "title": "Bridge"
             }
           },
           {
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/backend/php/laravel/021_logger.md",
+                "file": "Programming/backend/patterns/Bridge.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для 021_logger"
+              "title": "Обратные ссылки для Bridge"
             }
           },
           {
@@ -156,12 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/backend/php/laravel/021_logger.md",
+                "file": "Programming/backend/patterns/Bridge.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из 021_logger"
+              "title": "Исходящие ссылки из Bridge"
             }
           },
           {
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/backend/php/laravel/021_logger.md",
+                "file": "Programming/backend/patterns/Bridge.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура 021_logger"
+              "title": "Структура Bridge"
             }
           }
         ],
@@ -228,32 +228,35 @@
   },
   "active": "f88d6a52d397cf41",
   "lastOpenFiles": [
-    "Programming/backend/php/laravel/020_controller.md",
-    "Programming/backend/php/laravel/021_logger.md",
-    "Programming/backend/php/laravel/018_traits.md",
-    "Programming/backend/php/laravel/017_upload.md",
-    "Programming/backend/Python/libs/fast-api/start.md",
-    "Programming/backend/php/laravel/016_cache.md",
-    "Programming/backend/Python/libs/sqlalchemy.md",
-    "Programming/backend/php/laravel/015_ui.md",
-    "Programming/backend/php/laravel/004_helpers.md",
-    "Programming/backend/php/laravel/003_console.md",
-    "Programming/backend/php/laravel/002_router.md",
+    "Programming/backend/php/base/001_php_ini.md",
+    "Programming/backend/patterns/Bridge.md",
+    "Programming/backend/patterns/Composition.md",
+    "Programming/backend/patterns/Decorator.md",
+    "Programming/backend/patterns/Facade.md",
+    "Programming/backend/php/laravel/packages/004_carbone.md",
+    "Programming/backend/php/base/004_date.md",
+    "Programming/backend/php/base/003_composer.md",
+    "Programming/backend/php/laravel/practics/001_Practic_code.md",
     "Programming/backend/php/laravel/001_start.md",
-    "Programming/backend/php/laravel/013_event.md",
-    "Programming/backend/php/laravel/014_middleware.md",
-    "Programming/backend/php/laravel/012_queue.md",
+    "Programming/backend/php/laravel/practics/Поиск_медленых_запросов.md",
+    "Programming/backend/php/laravel/practics/User_settings.md",
+    "Programming/backend/php/laravel/practics/Одна таблица для нескольких моделей.md",
+    "Programming/backend/php/laravel/practics/Uuid.md",
+    "Programming/backend/php/laravel/practics/Multitenantable.md",
     "Programming/img/Без названия.md",
-    "Programming/backend/php/laravel/011_provider.md",
-    "Programming/backend/php/laravel/010_collections.md",
-    "Programming/backend/php/laravel/009_request.md",
-    "Programming/backend/php/laravel/008_validation.md",
-    "Programming/backend/php/laravel/007_error.md",
-    "Programming/backend/Python/libs/fast-api/analizator_code.md",
-    "Programming/backend/php/laravel/006_view.md",
+    "Programming/backend/php/laravel/test/001_unit.md",
+    "Programming/backend/php/laravel/practics",
+    "Programming/backend/php/laravel/test/003_data_provider.md",
+    "Programming/backend/php/laravel/test/002_reset_password.md",
+    "Programming/backend/php/laravel/023_websocket.md",
+    "Programming/backend/php/laravel/test",
+    "Programming/backend/Python/base/001_variable.md",
+    "Programming/backend/php/laravel/022_resource.md",
+    "Programming/backend/php/laravel/packages/003_swagger.md",
+    "Programming/backend/php/laravel/packages/002_passport.md",
+    "Programming/backend/php/laravel/packages/001_list.md",
     "Programming/backend/php/laravel/005_auth.md",
-    "Programming/backend/php/laravel/db/006_filter.md",
-    "Programming/backend/php/laravel/db/005_model.md",
+    "Programming/backend/php/laravel/packages",
     "Programming/backend/php/laravel/db",
     "Programming/backend/php/laravel"
   ]

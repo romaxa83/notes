@@ -1,6 +1,6 @@
 #php #laravel 
 
-#### 🔹 INSTALL
+#### 🔹 Install 
 ```bash
 composer create-project --prefer-dist laravel/laravel <app_name>
 
