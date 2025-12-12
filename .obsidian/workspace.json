@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/backend/patterns/Bridge.md",
+                "file": "Programming/backend/php/base/008_oop.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bridge"
+              "title": "008_oop"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/backend/Python/base/011_virtualenv.md",
+                "file": "Programming/backend/Python/libs/pytest_faker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "011_virtualenv"
+              "title": "pytest_faker"
             }
           },
           {
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/backend/patterns/Bridge.md",
+                "file": "Programming/backend/Python/libs/pytest_faker.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для Bridge"
+              "title": "Обратные ссылки для pytest_faker"
             }
           },
           {
@@ -156,12 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/backend/patterns/Bridge.md",
+                "file": "Programming/backend/Python/libs/pytest_faker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из Bridge"
+              "title": "Исходящие ссылки из pytest_faker"
             }
           },
           {
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/backend/patterns/Bridge.md",
+                "file": "Programming/backend/Python/libs/pytest_faker.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Bridge"
+              "title": "Структура pytest_faker"
             }
           }
         ],
@@ -226,36 +226,38 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "f88d6a52d397cf41",
+  "active": "901bf19271456c78",
   "lastOpenFiles": [
-    "Programming/backend/php/base/001_php_ini.md",
-    "Programming/backend/patterns/Bridge.md",
-    "Programming/backend/patterns/Composition.md",
-    "Programming/backend/patterns/Decorator.md",
-    "Programming/backend/patterns/Facade.md",
-    "Programming/backend/php/laravel/packages/004_carbone.md",
-    "Programming/backend/php/base/004_date.md",
-    "Programming/backend/php/base/003_composer.md",
-    "Programming/backend/php/laravel/practics/001_Practic_code.md",
-    "Programming/backend/php/laravel/001_start.md",
-    "Programming/backend/php/laravel/practics/Поиск_медленых_запросов.md",
-    "Programming/backend/php/laravel/practics/User_settings.md",
-    "Programming/backend/php/laravel/practics/Одна таблица для нескольких моделей.md",
-    "Programming/backend/php/laravel/practics/Uuid.md",
-    "Programming/backend/php/laravel/practics/Multitenantable.md",
-    "Programming/img/Без названия.md",
     "Programming/backend/php/laravel/test/001_unit.md",
-    "Programming/backend/php/laravel/practics",
-    "Programming/backend/php/laravel/test/003_data_provider.md",
-    "Programming/backend/php/laravel/test/002_reset_password.md",
-    "Programming/backend/php/laravel/023_websocket.md",
-    "Programming/backend/php/laravel/test",
+    "Programming/backend/php/packagies/001_list.md",
+    "Programming/backend/php/packagies/Doctrine.md",
     "Programming/backend/Python/base/001_variable.md",
-    "Programming/backend/php/laravel/022_resource.md",
-    "Programming/backend/php/laravel/packages/003_swagger.md",
-    "Programming/backend/php/laravel/packages/002_passport.md",
-    "Programming/backend/php/laravel/packages/001_list.md",
+    "Programming/backend/php/packagies/Swoole.md",
+    "Programming/backend/php/packagies/Guzzle.md",
+    "Programming/backend/php/topics/002_Fork_package.md",
+    "Programming/workflow/curl.md",
+    "Programming/backend/php/scripts/base.md",
+    "Programming/backend/php/base/008_oop.md",
+    "Programming/backend/php/scripts",
+    "Programming/backend/php/Без названия.md",
+    "Programming/backend/php/base/006_spl.md",
+    "Programming/backend/php/base/007_reflection.md",
+    "Programming/backend/Python/base/011_virtualenv.md",
+    "Programming/backend/php/base/002_start.md",
+    "Programming/backend/php/base/005_array.md",
+    "Programming/backend/php/topics/001_Rest_API.md",
+    "Programming/backend/php/extension/curl.md",
+    "Programming/backend/php/base/004_date.md",
+    "Programming/backend/php/topics/OAuth2.md",
     "Programming/backend/php/laravel/005_auth.md",
+    "Programming/backend/php/topics",
+    "Programming/backend/php/laravel/packages/003_swagger.md",
+    "Programming/backend/php/laravel/014_middleware.md",
+    "Programming/backend/php/laravel/002_router.md",
+    "Programming/backend/php/laravel/packages/004_carbone.md",
+    "Programming/backend/php/laravel/024_email.md",
+    "Programming/backend/php/laravel/practics",
+    "Programming/backend/php/laravel/test",
     "Programming/backend/php/laravel/packages",
     "Programming/backend/php/laravel/db",
     "Programming/backend/php/laravel"

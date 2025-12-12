@@ -8,6 +8,8 @@
 
 `/** @doesNotPerformAssertions */` - проверяет через аннотацию что ничего не произойдет
 
+`/** @expectedException Exception */` - проверяет через аннотацию что ожидает исключение
+
 ```php
 // в тесте переопределение данных в конфигурации
 \Config::set('firebase.enable_firebase', true);
@@ -22,7 +24,11 @@ vendor/bin/phpunit --help
 # создаст файл для конфигурации
 vendor/bin/phpunit --generate-configuration
 
+# запустить тесты конкретного файла
 vendor/bin/phpunit --filter 'Tests\\Feature\\Queries\\BackOffice\\Companies'
+
+# запустить тесты конкретного файла и метода
+vendor/bin/phpunit --filter 'Tests\\BackOffice\\Companies::success_update'
 ```
 ---
 #### 🔹 Настройки `phpunit.xml`
