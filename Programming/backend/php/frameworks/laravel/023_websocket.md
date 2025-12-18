@@ -1,5 +1,7 @@
 #php #laravel #websocket
 
+https://docs.beyondco.de/laravel-websockets/
+
 #### 🔹 Laravel Echo
 
 - устанавливаем `redis` и библиотеку (или расширение) для работы с ней

@@ -1,7 +1,28 @@
 #python #testing
 
 - https://habr.com/ru/companies/beget/articles/948806/
-#### 🔹 команды `pytest`
+
+#### 🔹 Assert
+
+```python
+response = client.post("/books", json=_data)  
+
+# проверка статуса ответа
+assert response.status_code == status.HTTP_201_CREATED  
+  
+data = response.json()
+
+# проверка значение
+assert data["title"] == _data["title"]
+
+# проверка наличие значение в результате
+assert "id" in data
+
+# значение не пустое
+assert data["created_at"] is not None
+```
+
+#### 🔹 Команды `pytest`
 
 ```bash
 # Все тесты  

@@ -1,5 +1,7 @@
 #php #laravel #api-docs
 
+- Пример документации для 3.0 - https://blog.quickadminpanel.com/laravel-api-documentation-with-openapiswagger/
+
 #### 🔹 Install
 
  - https://github.com/DarkaOnLine/L5-Swagger

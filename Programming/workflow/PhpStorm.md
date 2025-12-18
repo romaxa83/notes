@@ -49,7 +49,8 @@ CLI Interpretator ...
 
 после нажатие ок , в интерпретаторе появиться php из образа докера,который и выбираем
 
-#### Настройки Xdebug
+---
+#### 🔹 Настройки Xdebug
 settings -> Build,Execution,Deployment -> Debuger
 
 settings -> Languages & Frameworks -> PHP -> Debug
@@ -58,6 +59,9 @@ settings -> Languages & Frameworks -> PHP -> Debug
 Path to create validation script : /home/romaxa/project/auction/api/public - указываем на папку где находиться index.php
 Url to validation script : http://127.0.0.1:8081/
 
+еще тут [[xdebug]]
+
+---
 #### **Плагины**
 Laravel Idea - улучшает работу с laravel
 CodeGlance - карта кода возле скрола

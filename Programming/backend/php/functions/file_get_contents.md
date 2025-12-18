@@ -46,3 +46,10 @@ $context = stream_context_create([
 
 $result = file_get_contents($url, false, $context);
 ```
+---
+##### 🔹 Получение всех данных от клиента (в виде строки)
+
+```php
+file_get_contents('php://input');
+```
+---
