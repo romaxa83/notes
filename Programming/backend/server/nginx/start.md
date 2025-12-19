@@ -40,7 +40,14 @@ nginx -V 2>&1 | tr -- - '\n' | grep module
 ```
 ---
 #### 🔹 Полезные ссылки
+
 - курс на YouTube по nginx - https://www.youtube.com/watch?v=dHsv8EnhSgQ&list=PLhgRAQ8BwWFa7ulOkX0qi5UfVizGD_-Rc
 - Документация - http://nginx.org/ru/docs/
 - Основы - http://nginx.org/ru/docs/beginners_guide.html
+- о nginx - https://proglib.io/p/nginx/
+- настройка конфига - https://nginxconfig.io/
+- Статьи по Nginx - https://ruhighload.com/nginx
+- Кеширование с Nginx - https://ruhighload.com/%D0%9A%D1%8D%D1%88%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5+%D1%81+nginx
+- настройка сжатие файлов - https://ruhighload.com/%D0%A1%D0%B6%D0%B0%D1%82%D0%B8%D0%B5+gzip+%D0%B4%D0%BB%D1%8F+js%2fcss%2fhtml
+
 ---

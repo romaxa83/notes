@@ -72,4 +72,6 @@ go get -u github.com/spf13/viper
 ##### 🔸 Пакеты от gorilla для веба
 - https://www.gorillatoolkit.org/
 ---
-
+##### 🔸 Рекогносцировка лица
+- https://github.com/Kagami/go-face
+---

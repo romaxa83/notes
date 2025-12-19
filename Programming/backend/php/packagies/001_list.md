@@ -64,3 +64,6 @@
 ##### 🔸 Конвертация видео
 - https://github.com/PHP-FFMpeg/PHP-FFMpeg
 ---
+##### 🔸 RabbitMQ
+-  https://github.com/php-amqplib/php-amqplib
+---
