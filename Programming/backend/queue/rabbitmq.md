@@ -1,5 +1,6 @@
 #queue #rabbitmq 
 
+> Как поднять docker с rabbitmq - [[Programming/backend/docker/templates/services/rabbitmq|rabbitmq]]
 #### 🔹 Articles
 
 - https://kt.team/hr/blog/rabbitmq
@@ -32,12 +33,3 @@ sudo apt-get install rabbitmq-server -y
 Установка на Ubuntu_18.04
 https://tecadmin.net/install-rabbitmq-server-on-ubuntu/
 
-
-
-2) -- install rabbitmq server
-
-=========================================================================================
-библиотека для работы с amqp
-
-
-=========================================================================================
