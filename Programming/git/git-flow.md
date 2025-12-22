@@ -1,7 +1,7 @@
 #git #tools 
 
 #### 🔹 Articles
-https://bitworks.software/2019-03-12-gitflow-workflow.html
+- https://bitworks.software/2019-03-12-gitflow-workflow.html
 ---
 #### 🔹 Start
 

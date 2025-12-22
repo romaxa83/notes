@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/backend/elasticsearch/001_start.md",
+                "file": "Programming/linux/recipes/advice.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "001_start"
+              "title": "advice"
             }
           },
           {
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/backend/elasticsearch/001_start.md",
+                "file": "Programming/linux/recipes/advice.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для 001_start"
+              "title": "Обратные ссылки для advice"
             }
           },
           {
@@ -156,12 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/backend/elasticsearch/001_start.md",
+                "file": "Programming/linux/recipes/advice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из 001_start"
+              "title": "Исходящие ссылки из advice"
             }
           },
           {
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/backend/elasticsearch/001_start.md",
+                "file": "Programming/linux/recipes/advice.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура 001_start"
+              "title": "Структура advice"
             }
           }
         ],
@@ -228,12 +228,26 @@
   },
   "active": "901bf19271456c78",
   "lastOpenFiles": [
+    "Programming/backend/docker/templates/services/python.md",
+    "Programming/backend/docker/templates/services/rabbitmq.md",
+    "Programming/backend/docker/templates/docker-file/php_for_laravel/Dockerfile.md",
+    "Programming/linux/recipes/advice.md",
+    "Programming/git/git.md",
+    "Programming/git/git_practice.md",
+    "Programming/git/git_devops.md",
+    "Programming/git/git-flow.md",
+    "Programming/backend/Python/libs/loguru.md",
+    "Programming/workflow/emoji.md",
+    "Programming/backend/Python/base/010_annotation.md",
+    "Programming/backend/Python/base/001_variable.md",
+    "Programming/backend/Python/libs/index.md",
+    "Programming/backend/GO/base/004_struct.md",
+    "Programming/backend/elasticsearch/001_start.md",
     "Programming/backend/elasticsearch/test_data.md",
     "Programming/backend/elasticsearch/003_mapping.md",
     "Programming/backend/elasticsearch/006_arrgeration.md",
     "Programming/backend/elasticsearch/004_search.md",
     "Programming/backend/elasticsearch/005_insert.md",
-    "Programming/backend/elasticsearch/001_start.md",
     "Programming/backend/php/packagies/001_list.md",
     "Programming/backend/elasticsearch/002_api.md",
     "Programming/backend/php/packagies/Doctrine.md",
@@ -241,22 +255,8 @@
     "Programming/backend/elasticsearch",
     "Programming/backend/docker/docker-hub.md",
     "Programming/backend/docker/docker-compose.md",
-    "Programming/backend/docker/docker.md",
-    "Programming/workflow/google.md",
-    "Programming/linux/011_local_net.md",
-    "Programming/backend/server/deploy/001_my_server.md",
-    "Programming/backend/server/recipes/deploy_nodejs.md",
-    "Programming/backend/server/recipes/deploy_micro.md",
-    "Programming/backend/JavaScripts/NodeJS/002_package_list.md",
-    "Programming/backend/JavaScripts/NodeJS/001_start.md",
-    "Programming/backend/JavaScripts/NodeJS/recipes/001_server.md",
-    "Programming/linux/005_network.md",
-    "Programming/linux/tools/supervizor.md",
-    "Programming/backend/server/001_monitoring.md",
-    "Programming/backend/server/004_ngrok.md",
     "Programming/backend/server/recipes",
     "Programming/backend/server/deploy",
-    "Programming/backend/other/005_benchmark.md",
     "Programming/linux/bash/scripts",
     "Programming/linux/bash",
     "Programming/backend/JavaScripts/TypeScript",
