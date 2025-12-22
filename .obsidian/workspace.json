@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/linux/bash/scripts/vhost.md",
+                "file": "Programming/backend/elasticsearch/001_start.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "vhost"
+              "title": "001_start"
             }
           },
           {
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/linux/bash/scripts/vhost.md",
+                "file": "Programming/backend/elasticsearch/001_start.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для vhost"
+              "title": "Обратные ссылки для 001_start"
             }
           },
           {
@@ -156,12 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/linux/bash/scripts/vhost.md",
+                "file": "Programming/backend/elasticsearch/001_start.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из vhost"
+              "title": "Исходящие ссылки из 001_start"
             }
           },
           {
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/linux/bash/scripts/vhost.md",
+                "file": "Programming/backend/elasticsearch/001_start.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура vhost"
+              "title": "Структура 001_start"
             }
           }
         ],
@@ -228,41 +228,41 @@
   },
   "active": "901bf19271456c78",
   "lastOpenFiles": [
-    "Programming/linux/001_base_command.md",
-    "Programming/linux/bash/scripts/vhost.md",
-    "Programming/linux/010_awk.md",
-    "Programming/linux/bash/scripts/files.md",
-    "Programming/linux/bash/scripts/dump.md",
-    "Programming/linux/bash/scripts/advance_dump.md",
-    "Programming/linux/bash/scripts",
-    "Programming/linux/bash/001_start.md",
-    "Programming/linux/recipes/links.md",
-    "Programming/linux/recipes/advice.md",
-    "Programming/linux/008_utils.md",
-    "Programming/backend/JavaScripts/TypeScript/001_start.md",
-    "Programming/linux/bash",
-    "Programming/backend/JavaScripts/NodeJS/001_start.md",
-    "Programming/backend/JavaScripts/TypeScript",
-    "Programming/backend/JavaScripts/NodeJS/recipes/001_server.md",
+    "Programming/backend/elasticsearch/test_data.md",
+    "Programming/backend/elasticsearch/003_mapping.md",
+    "Programming/backend/elasticsearch/006_arrgeration.md",
+    "Programming/backend/elasticsearch/004_search.md",
+    "Programming/backend/elasticsearch/005_insert.md",
+    "Programming/backend/elasticsearch/001_start.md",
+    "Programming/backend/php/packagies/001_list.md",
+    "Programming/backend/elasticsearch/002_api.md",
+    "Programming/backend/php/packagies/Doctrine.md",
+    "Programming/backend/docker/Dockerfile.md",
+    "Programming/backend/elasticsearch",
+    "Programming/backend/docker/docker-hub.md",
+    "Programming/backend/docker/docker-compose.md",
+    "Programming/backend/docker/docker.md",
+    "Programming/workflow/google.md",
+    "Programming/linux/011_local_net.md",
+    "Programming/backend/server/deploy/001_my_server.md",
+    "Programming/backend/server/recipes/deploy_nodejs.md",
+    "Programming/backend/server/recipes/deploy_micro.md",
     "Programming/backend/JavaScripts/NodeJS/002_package_list.md",
-    "Programming/backend/JavaScripts/NodeJS/recipes",
-    "Programming/backend/GO/packages/list.md",
-    "Programming/backend/queue/rabbitmq.md",
-    "Programming/backend/JavaScripts/npm.md",
+    "Programming/backend/JavaScripts/NodeJS/001_start.md",
+    "Programming/backend/JavaScripts/NodeJS/recipes/001_server.md",
+    "Programming/linux/005_network.md",
+    "Programming/linux/tools/supervizor.md",
     "Programming/backend/server/001_monitoring.md",
-    "Programming/backend/bot/telegram/start.md",
+    "Programming/backend/server/004_ngrok.md",
+    "Programming/backend/server/recipes",
+    "Programming/backend/server/deploy",
+    "Programming/backend/other/005_benchmark.md",
+    "Programming/linux/bash/scripts",
+    "Programming/linux/bash",
+    "Programming/backend/JavaScripts/TypeScript",
+    "Programming/backend/JavaScripts/NodeJS/recipes",
     "Programming/backend/JavaScripts/NodeJS",
     "Programming/backend/JavaScripts",
-    "Programming/backend/other/plantuml/info.md",
-    "Programming/backend/bot/telegram",
-    "Programming/backend/bot",
-    "Programming/backend/other/plantuml/examples/001_process.md",
-    "Programming/backend/other/plantuml/examples/002_midmap.md",
-    "Programming/backend/other/plantuml/examples/003_relations.md",
-    "Programming/backend/other/plantuml/examples/004_if.md",
-    "Programming/backend/other/plantuml/examples/005_flow.md",
-    "Programming/backend/other/plantuml/examples/006_schema.md",
-    "Programming/backend/other/plantuml/examples",
-    "Programming/backend/other/plantuml"
+    "Programming/backend/bot/telegram"
   ]
 }
