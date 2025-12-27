@@ -49,7 +49,9 @@ pip install -r requirements.txt --upgrade
 pip install -r requirements.txt --no-deps
 ```
 ---
-#### 🔹 poetry
+#### 🔹 Poetry
+
+- https://habr.com/ru/articles/969296/
 
 Современный менеджер зависимостей и сборки:
 ```bash

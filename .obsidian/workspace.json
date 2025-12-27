@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/linux/recipes/advice.md",
+                "file": "Programming/linux/bash/scripts/monitor_server/network_analysis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "advice"
+              "title": "network_analysis"
             }
           },
           {
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/linux/recipes/advice.md",
+                "file": "Programming/backend/Python/libs/fast-api/start.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для advice"
+              "title": "Обратные ссылки для start"
             }
           },
           {
@@ -156,12 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/linux/recipes/advice.md",
+                "file": "Programming/backend/Python/libs/fast-api/start.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из advice"
+              "title": "Исходящие ссылки из start"
             }
           },
           {
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/linux/recipes/advice.md",
+                "file": "Programming/linux/bash/scripts/monitor_server/network_analysis.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура advice"
+              "title": "Структура network_analysis"
             }
           }
         ],
@@ -226,35 +226,36 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "901bf19271456c78",
+  "active": "25f2283bed909ba2",
   "lastOpenFiles": [
-    "Programming/backend/docker/templates/services/python.md",
-    "Programming/backend/docker/templates/services/rabbitmq.md",
-    "Programming/backend/docker/templates/docker-file/php_for_laravel/Dockerfile.md",
+    "Programming/linux/bash/scripts/monitor_server/memory_analysis.md",
+    "Programming/linux/bash/scripts/monitor_server/network_analysis.md",
+    "Programming/linux/bash/scripts/monitor_server/io_analyzer.md",
+    "Programming/linux/bash/scripts/monitor_server",
+    "Programming/linux/bash/scripts/files.md",
+    "Programming/backend/Python/libs/sqlalchemy.md",
+    "Programming/backend/Python/libs/pytest_faker.md",
+    "Programming/backend/Python/libs/alembic.md",
+    "Programming/backend/Python/base/002_conditional.md",
+    "Programming/backend/Python/libs/fast-api/start.md",
+    "Programming/backend/Python/libs/pydantic.md",
+    "Programming/linux/004_process.md",
+    "Programming/linux/005_network.md",
+    "Programming/linux/006_monitor.md",
+    "Programming/linux/008_utils.md",
     "Programming/linux/recipes/advice.md",
-    "Programming/git/git.md",
-    "Programming/git/git_practice.md",
-    "Programming/git/git_devops.md",
-    "Programming/git/git-flow.md",
+    "Programming/linux/tools/list.md",
+    "Programming/linux/002_file_system.md",
+    "Programming/linux/001_base_command.md",
     "Programming/backend/Python/libs/loguru.md",
+    "Programming/backend/Python/base/011_virtualenv.md",
+    "Programming/backend/docker/docker.md",
     "Programming/workflow/emoji.md",
-    "Programming/backend/Python/base/010_annotation.md",
-    "Programming/backend/Python/base/001_variable.md",
-    "Programming/backend/Python/libs/index.md",
-    "Programming/backend/GO/base/004_struct.md",
-    "Programming/backend/elasticsearch/001_start.md",
-    "Programming/backend/elasticsearch/test_data.md",
-    "Programming/backend/elasticsearch/003_mapping.md",
-    "Programming/backend/elasticsearch/006_arrgeration.md",
-    "Programming/backend/elasticsearch/004_search.md",
-    "Programming/backend/elasticsearch/005_insert.md",
-    "Programming/backend/php/packagies/001_list.md",
-    "Programming/backend/elasticsearch/002_api.md",
-    "Programming/backend/php/packagies/Doctrine.md",
-    "Programming/backend/docker/Dockerfile.md",
-    "Programming/backend/elasticsearch",
-    "Programming/backend/docker/docker-hub.md",
     "Programming/backend/docker/docker-compose.md",
+    "Programming/workflow/Makefile.md",
+    "Programming/backend/Python/start.md",
+    "Programming/workflow/mac.md",
+    "Programming/backend/elasticsearch",
     "Programming/backend/server/recipes",
     "Programming/backend/server/deploy",
     "Programming/linux/bash/scripts",
@@ -262,7 +263,6 @@
     "Programming/backend/JavaScripts/TypeScript",
     "Programming/backend/JavaScripts/NodeJS/recipes",
     "Programming/backend/JavaScripts/NodeJS",
-    "Programming/backend/JavaScripts",
-    "Programming/backend/bot/telegram"
+    "Programming/backend/JavaScripts"
   ]
 }

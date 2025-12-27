@@ -225,6 +225,18 @@ alembic revision --autogenerate -m "Initial migration"
 ```bash
 alembic upgrade head
 ```
+---
+#### 🔹 Send email
+
+```bash
+# pip
+pip install jinja2 aiosmtplib
+# poetry
+poetry add jinja2 aiosmtplib
+```
+==где:==
+- `jinja2` - пакет для шаблонов
+- `aiosmtplib`- пакет для отправки писем
 
 ---
 #### 🔹 STRUCTURA PROJECT
@@ -283,6 +295,6 @@ fastapi-project
 ```
 
 ---
-
-
-
+```
+lsof -ti:8000 | xargs kill -9
+```

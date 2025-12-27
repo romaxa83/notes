@@ -138,7 +138,7 @@ from faker import Faker
 fake = Faker()
 
 # Текст
-fake.name()                     # "John Doe"
+fake.name()                    # "John Doe"
 fake.first_name()              # "John"
 fake.last_name()               # "Doe"
 fake.email()                   # "john@example.com"
