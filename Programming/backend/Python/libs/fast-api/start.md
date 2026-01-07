@@ -3,7 +3,9 @@
 - Awesome FastAPI - https://github.com/mjhea0/awesome-fastapi
 - Фильтрация и пагинация в FastAPI - https://habr.com/ru/articles/714570/
 
-
+```python
+print(json.dumps(data, ensure_ascii=False, indent=2))
+```
 
 пакет для тестирования
 pip install pytest
