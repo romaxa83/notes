@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/security/cors.md",
+                "file": "Programming/backend/php/base/001_php_ini.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cors"
+              "title": "001_php_ini"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/backend/php/base/008_oop.md",
+                "file": "Programming/backend/Python/base/005_function.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "008_oop"
+              "title": "005_function"
             }
           },
           {
@@ -63,7 +63,8 @@
               "title": "001_base_command"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -198,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/security/cors.md",
+                "file": "Programming/backend/Python/base/005_function.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура cors"
+              "title": "Структура 005_function"
             }
           }
         ],
@@ -225,43 +226,43 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "940af27dda51ca2a",
+  "active": "f88d6a52d397cf41",
   "lastOpenFiles": [
-    "Programming/backend/php/base/001_php_ini.md",
-    "Programming/backend/php/websocket/centrifuge.md",
-    "Programming/backend/php/topics/Attribute.md",
-    "Programming/backend/php/topics/002_Fork_package.md",
-    "Programming/backend/php/topics/001_Rest_API.md",
+    "Programming/security/base/001_info.md",
     "Programming/security/cors.md",
-    "Programming/backend/php/functions/file_get_contents.md",
-    "Programming/backend/php/packagies/001_list.md",
-    "Programming/backend/server/002_grafana.md",
-    "Programming/security",
-    "Programming/Без названия.md",
-    "Programming/secir",
-    "Programming/backend/Python/libs/pydantic.md",
+    "Programming/security/Без названия.md",
+    "Programming/security/base",
+    "Programming/backend/docker/templates/services/traefik.md",
+    "Programming/backend/docker/templates/services/postgres.md",
+    "Programming/backend/docker/templates/services/portainer.md",
+    "Programming/backend/docker/templates/services/rabbitmq.md",
+    "Programming/backend/docker/templates/services/python.md",
+    "Programming/backend/php/base/003_composer.md",
     "Programming/backend/Python/libs/fast-api/start.md",
-    "Programming/backend/Python/libs/sqlalchemy.md",
+    "Programming/workflow/curl.md",
+    "Programming/backend/docker/advices.md",
+    "Programming/backend/docker/docker.md",
+    "Programming/backend/docker/templates/docker-file/php_for_laravel/Dockerfile.md",
+    "Programming/backend/php/base/000_useful_things.md",
+    "Programming/backend/php/base/008_oop.md",
+    "Programming/backend/php/base/001_php_ini.md",
+    "Programming/backend/docker/recipes/VS Code in Docker.md",
+    "Programming/backend/docker/templates/services/redis.md",
+    "Programming/backend/docker/recipes",
+    "Programming/backend/docker/templates/services/mongo.md",
+    "Programming/backend/php/recipes/Ускорить массовую отправку HTTP-запросов.md",
+    "Programming/backend/php/topics/001_Rest_API.md",
     "Programming/workflow/emoji.md",
-    "Programming/linux/001_base_command.md",
-    "Programming/backend/Python/base/004_loop.md",
-    "Programming/backend/Python/base/001_variable.md",
-    "Programming/backend/Python/libs/alembic.md",
-    "Programming/backend/Python/libs/loguru.md",
-    "Programming/linux/bash/scripts/monitor_server/swap_monitoring.md",
-    "Programming/linux/bash/scripts/monitor_server/network_analysis.md",
-    "Programming/backend/GO/base/002_var.md",
-    "Programming/linux/recipes/advice.md",
-    "Programming/git/git.md",
-    "Programming/linux/bash/scripts/monitor_server/memory_analysis.md",
-    "Programming/linux/bash/scripts/monitor_server/io_analyzer.md",
+    "Programming/backend/php/scripts/base.md",
+    "Programming/backend/php/recipes.md",
+    "Programming/backend/php/recipes",
+    "Programming/backend/db/Redis.md",
+    "Programming/security",
+    "Programming/secir",
     "Programming/linux/bash/scripts/monitor_server",
     "Programming/backend/elasticsearch",
     "Programming/backend/server/recipes",
     "Programming/backend/server/deploy",
-    "Programming/linux/bash/scripts",
-    "Programming/linux/bash",
-    "Programming/backend/JavaScripts/TypeScript",
-    "Programming/backend/JavaScripts/NodeJS/recipes"
+    "Programming/linux/bash/scripts"
   ]
 }

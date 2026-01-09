@@ -545,7 +545,7 @@ composer global show
 composer global remove package/name
 
 # Работа с версиями
-composer outdated                    # Устаревшие пакеты
+composer outdated                   # Устаревшие пакеты
 composer outdated --direct          # Только прямые зависимости
 composer outdated --minor-only      # Только минорные обновления
 
