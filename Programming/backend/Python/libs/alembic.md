@@ -1,6 +1,7 @@
 #python #tools #package #database #migration
 
-Docs - https://alembic.sqlalchemy.org/en/latest/
+- Docs - https://alembic.sqlalchemy.org/en/latest/
+- Cookbook - https://alembic.sqlalchemy.org/en/latest/cookbook.html
 
 **Alembic** — это инструмент управления версиями миграций БД для **SQLAlchemy**. Он позволяет:
 - Отслеживать изменения схемы БД

@@ -2,6 +2,7 @@
 - Лучшие практики для написния кода на fastapi  - https://github.com/zhanymkanov/fastapi-best-practices
 - Awesome FastAPI - https://github.com/mjhea0/awesome-fastapi
 - Фильтрация и пагинация в FastAPI - https://habr.com/ru/articles/714570/
+- https://fastapi.tiangolo.com/advanced/custom-response/#html-response
 
 ```python
 print(json.dumps(data, ensure_ascii=False, indent=2))
@@ -179,27 +180,60 @@ DB_PASSWORD=password
 
 - создаем файл -`database.py` (где будет сессия подключения к бд)
 ```python
-from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker, declarative_base
-from src.config import Config
-
-config = Config()
-
-engine = create_engine(
-    config.db.url,
-    echo=True,
-    pool_pre_ping=True,
-)
-
-SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
-Base = declarative_base()
-
-def get_db():
-    db = SessionLocal()
-    try:
-        yield db
-    finally:
-        db.close()
+from typing import Annotated, Generator  
+from sqlalchemy import create_engine  
+from sqlalchemy.orm import DeclarativeBase, sessionmaker, Session  
+from fastapi import Depends  
+  
+from src.config import Config  
+  
+config = Config()  
+  
+# Не создаём engine здесь, это будет сделано в функции ниже  
+engine = None  
+SessionLocal = None  
+  
+class Base(DeclarativeBase):  
+    pass  
+  
+def init_db(db_url: str = None):  
+    """Инициализация БД с использованием конкретного URL"""  
+    global engine, SessionLocal  
+  
+    if db_url is None:  
+        db_url = config.db.url  
+  
+    engine = create_engine(  
+        db_url,  
+        echo=False, # вывод логов в терминал  
+        pool_pre_ping=True,  
+        pool_size=10,  
+        max_overflow=20  
+    )  
+  
+    SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)  
+  
+    return engine, SessionLocal  
+  
+def get_db():  
+    """Получить сессию БД"""  
+    if SessionLocal is None:  
+        init_db()  
+  
+    db = SessionLocal()  
+    try:  
+        yield db  
+    finally:  
+        db.close()  
+  
+async def dispose() -> None:  
+    """Закрыть все соединения с БД"""  
+    global engine  
+    if engine is not None:  
+        await engine.dispose()  
+        engine = None  
+  
+DbSessionDep = Annotated[Session, Depends(get_db)]
 ```
 
 -  Инициализация Alembic и настраиваем конфигурацию Alembic (`alembic/env.py`), более подробно про Alembic здесь - [[alembic]]
@@ -229,6 +263,23 @@ alembic upgrade head
 ```
 ---
 #### 🔹 Async db session
+
+```bash
+pip install asyncpg
+pip install greenlet
+# or
+poetry add asyncpg
+poetry add greenlet
+```
+
+==Важные нюансы при переходе на Async SQLAlchemy==
+1. **Lazy Loading**: Асинхронная SQLAlchemy **ЗАПРЕЩАЕТ** ленивую загрузку связей. Если вы обратитесь к `user.role.permissions` в коде, получите ошибку.
+    - **Решение**: Всегда используйте или `selectinload` в запросах. `joinedload`
+2. **Запросы**:
+    - → `await session.scalar(stmt)` `session.scalar(stmt)`
+    - `session.scalars(stmt).all()` → `result = await session.execute(stmt); result.scalars().all()`
+3. **Тесты**: Ваши тесты тоже придется переделать на асинхронные, используя `pytest-asyncio` или аналоги.
+4. **Миграции**: В нужно будет также сменить URL, либо настроить Alembic на работу с асинхронным движком (обычно через `run_async` в ). `alembic.ini``env.py`
 
 ==Настраиваем асинхронное подключение==
 ```python
