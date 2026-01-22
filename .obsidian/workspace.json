@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/backend/Python/libs/pandas/003_MultiIndex.md",
+                "file": "Programming/backend/Python/libs/pandas/001_base.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "003_MultiIndex"
+              "title": "001_base"
             }
           },
           {
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/backend/Python/libs/pandas/003_MultiIndex.md",
+                "file": "Programming/backend/Python/libs/pandas/001_base.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура 003_MultiIndex"
+              "title": "Структура 001_base"
             }
           }
         ],
@@ -228,10 +228,15 @@
   },
   "active": "901bf19271456c78",
   "lastOpenFiles": [
+    "Programming/backend/Python/libs/pandas/008_export_import_data.md",
+    "Programming/backend/Python/libs/pandas/007_datetime.md",
+    "Programming/backend/Python/libs/pandas/006_join_data.md",
+    "Programming/backend/Python/libs/pandas/001_base.md",
+    "Programming/backend/Python/libs/pandas/005_group_by.md",
     "Programming/backend/Python/libs/pandas/002_work_with_text_data.md",
+    "Programming/backend/Python/libs/pandas/004_изменения_формы_данных_и_сводные_таблицы.md",
     "Programming/backend/Python/libs/pandas/003_MultiIndex.md",
     "Programming/backend/Python/base/004_loop.md",
-    "Programming/backend/Python/libs/pandas/001_base.md",
     "Programming/backend/Python/libs/Jupyter.md",
     "Programming/backend/Python/base/009_module.md",
     "Programming/backend/Python/base/013_генераторы.md",
@@ -249,11 +254,6 @@
     "Programming/backend/db/sql/ALTER TABLE.md",
     "Programming/security/base/001_info.md",
     "Programming/security/base/003_АRР-отравление.md",
-    "Programming/backend/Python/libs/selenium.md",
-    "Programming/backend/php/recipes/Ускорить массовую отправку HTTP-запросов.md",
-    "Programming/backend/Python/libs/request.md",
-    "Programming/backend/php/topics/001_Rest_API.md",
-    "Programming/backend/php/topics/Create package.md",
     "Programming/monitoring/grafana",
     "Programming/monitoring",
     "Programming/security/base",
