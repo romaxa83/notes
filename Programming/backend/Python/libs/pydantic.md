@@ -1,7 +1,6 @@
 #python #package 
 
 repo - https://github.com/pydantic/pydantic
-
 #### 🔹 Install
 
 ```bash

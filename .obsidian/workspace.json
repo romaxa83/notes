@@ -41,12 +41,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/backend/Python/libs/pandas/001_base.md",
+                "file": "Programming/backend/Python/libs/Jupyter.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "001_base"
+              "title": "Jupyter"
+            }
+          },
+          {
+            "id": "410f5ecb51216603",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming/backend/php/frameworks/yii/001_info.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "001_info"
             }
           },
           {
@@ -64,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -199,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/backend/Python/libs/pandas/001_base.md",
+                "file": "Programming/backend/php/frameworks/yii/001_info.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура 001_base"
+              "title": "Структура 001_info"
             }
           }
         ],
@@ -226,34 +240,35 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "901bf19271456c78",
+  "active": "410f5ecb51216603",
   "lastOpenFiles": [
-    "Programming/backend/Python/libs/pandas/008_export_import_data.md",
+    "Programming/monitoring/info.md",
+    "Programming/backend/php/frameworks/yii/001_info.md",
+    "Programming/backend/php/frameworks/yii",
+    "Programming/backend/php/frameworks/ншш.md",
+    "Programming/backend/Python/base/Dataclass.md",
+    "Programming/backend/Python/base/008_class.md",
+    "Programming/backend/Python/base/010_annotation.md",
+    "Programming/backend/Python/libs/pydantic.md",
+    "Programming/backend/server/005_setup.md",
+    "Programming/backend/server/003_tmux.md",
+    "Programming/backend/server/004_ngrok.md",
     "Programming/backend/Python/libs/pandas/007_datetime.md",
-    "Programming/backend/Python/libs/pandas/006_join_data.md",
+    "Programming/backend/Python/libs/pandas/009_visualization.md",
     "Programming/backend/Python/libs/pandas/001_base.md",
-    "Programming/backend/Python/libs/pandas/005_group_by.md",
+    "Programming/backend/Python/libs/Jupyter.md",
+    "Programming/backend/Python/libs/mathplotlib.md",
+    "Programming/backend/Python/base/011_virtualenv.md",
     "Programming/backend/Python/libs/pandas/002_work_with_text_data.md",
     "Programming/backend/Python/libs/pandas/004_изменения_формы_данных_и_сводные_таблицы.md",
-    "Programming/backend/Python/libs/pandas/003_MultiIndex.md",
-    "Programming/backend/Python/base/004_loop.md",
-    "Programming/backend/Python/libs/Jupyter.md",
-    "Programming/backend/Python/base/009_module.md",
-    "Programming/backend/Python/base/013_генераторы.md",
-    "Programming/backend/Python/libs/fast-api/analizator_code.md",
-    "Programming/backend/Python/libs/faststream.md",
+    "Programming/backend/Python/libs/pandas/005_group_by.md",
+    "Programming/backend/Python/libs/pandas/008_export_import_data.md",
+    "Programming/backend/Python/libs/pandas/006_join_data.md",
     "Programming/backend/Python/libs/loguru.md",
-    "Programming/backend/Python/libs/index.md",
-    "Programming/backend/Python/libs/001_list.md",
-    "Programming/backend/db/Redis.md",
-    "Programming/backend/Python/libs/alembic.md",
-    "Programming/backend/Python/base/011_virtualenv.md",
-    "Programming/security/base/005_веб-хакинга.md",
-    "Programming/security/base/006_атаки на приложения.md",
-    "Programming/backend/db/sql/001_base.md",
-    "Programming/backend/db/sql/ALTER TABLE.md",
-    "Programming/security/base/001_info.md",
-    "Programming/security/base/003_АRР-отравление.md",
+    "Programming/workflow/markdown.md",
+    "Programming/backend/Python/libs/numpy.md",
+    "Programming/workflow/mac.md",
+    "Programming/backend/Python/libs/pandas/003_MultiIndex.md",
     "Programming/monitoring/grafana",
     "Programming/monitoring",
     "Programming/security/base",
@@ -262,7 +277,6 @@
     "Programming/security",
     "Programming/secir",
     "Programming/linux/bash/scripts/monitor_server",
-    "Programming/backend/elasticsearch",
-    "Programming/backend/server/recipes"
+    "Programming/backend/elasticsearch"
   ]
 }
