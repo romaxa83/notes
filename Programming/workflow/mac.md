@@ -78,4 +78,56 @@ which mysql
 # перезапустить zshrc, если вносились изменения
 source ~/.zshrc
 ```
+
+- утилита `eza` заменяющая `ls` - [[eza]]
+- тема `powerlevel10k` - https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#oh-my-zsh
+---
+### 🔹 Спецсимволы (в скобках если рус. раскладка)
+- `option + q` - œ ( ј )
+- `option + w` - ∑ ( џ )
+- `option + e` - ´ ( ў )
+- `option + r` - ® ( ќ )
+- `option + t` - † ( † )
+- `option + y` - ¥ ( њ )
+- `option + u` - ¨ ( ѓ )
+- `option + i` - ˆ ( ѕ )
+- `option + o` - ø ( ' )
+- `option + p` - π ( ‘ )
+- `option + [` - “ ( “ )
+- `option + ]` - ‘ ( « )
+- `option + a` - å ( d )
+- `option + s` - ß ( z )
+- `option + d` - ∂ ( ћ )
+- `option + f` - ƒ ( ÷ )
+- `option + g` - © ( … )
+- `option + h` - ˙ ( • )
+- `option + j` - ∆ ( ∆ )
+- `option + k` - ˚ ( љ )
+- `option + l` - ¬ ( l )
+- `option + ;` - … ( « )
+- `option + '` - æ ( є )
+- `option + \ - « ( \ )
+- `option + z` - Ω ( ђ )
+- `option + x` - ≈ ( x )
+- `option + c` - ç ( c )
+- `option + v` - √ ( v )
+- `option + b` - ∫ ( і )
+- `option + n` - ˜ ( ƒ )
+- `option + m` - µ ( m )
+- `option + ,` - ≤ ( ≤ )
+- `option + .` - ≥ ( ≥ )
+- `option + /` - ÷ ( ї )
+- `option + §` - § ( § )
+- `option + 1` - ¡ ( ! )
+- `option + 2` - ™ (
+- `option + 3` - £ ()
+- `option + 4` - ¢ ()
+- `option + 5` - ∞ ()
+- `option + 6` - § ()
+- `option + 7` - ¶ ()
+- `option + 8` - •  ()
+- `option + 9` - ª  ()
+- `option + 0` - º ()
+- `option + -` - – ()
+- `option + =` - ≠ ()
 ---
