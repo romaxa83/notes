@@ -73,6 +73,20 @@ CodeGlance - карта кода возле скрола
 Mongo Plugin - для работы с монго
 .ignore - для файлов .ignore
 
+- Inspection Lens - очень удобный плагин, который выводит текст ошибки или предупреждения справа от строки. Больше не нужно наводить на место ошибки курсор;
+- Better Highlights - улучшает подсветку и указывает [когнитивную сложность методов](https://1c-syntax.github.io/bsl-language-server/diagnostics/CognitiveComplexity/);
+- Kursor - указывает язык ввода и наличие активного CAPS LOCK около каретки (может не работать в некоторых системах или последней версии IDE);
+- MultiHighlight - подсвечивает все подстроки, совпадающие с выделенной;
+- TabShifter - улучшает работу с окнами редактора через клавиатуру;
+- Rainbow Brackets - выделяет разными цветами вложенные скобки;
+- Indent Rainbow - аналогично [Rainbow Brackets](https://plugins.jetbrains.com/plugin/10080-rainbow-brackets), но для отступов;
+- GitToolBox - улучшает взаимодействие с git;
+- CodeGlance Pro - отображает мини версию кода вместо обычного скроллбара;
+- DeveloperTools - набор часто необходимых инструментов для разных задач
+- Extra Icons - обширный набор иконок, который заменяет стандартные иконки для директорий и файлов;
+- [Material Theme UI](https://plugins.jetbrains.com/plugin/8006-material-theme-ui) - темы IDE для тех, кому не приглянулись стандартные;
+- [Key Promoter X](https://plugins.jetbrains.com/plugin/9792-key-promoter-x) - выводит аллерты с неиспользованными хоткеями.
+
 #### ШРИФТ
 Noto Mono (size - 14)
 

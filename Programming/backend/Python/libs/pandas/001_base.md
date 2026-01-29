@@ -2,6 +2,7 @@
 
 - Введение в pandas: анализ данных на Python - https://khashtamov.com/ru/pandas-introduction/
 - https://github.com/paskhaver/pandas-in-action
+- Как работать с датами в pandas -  https://habr.com/ru/companies/wunderfund/articles/677068/
 ---
 - Pandas — библиотека для анализа данных, основанная на языке программирования Python.
 - Pandas превосходно справляется со сложными операциями над большими наборами данных и отличается сжатым синтаксисом.

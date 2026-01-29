@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/linux/012_vim.md",
+                "file": "Programming/backend/Python/recipes/cv.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "012_vim"
+              "title": "cv"
             }
           },
           {
@@ -213,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/linux/012_vim.md",
+                "file": "Programming/backend/Python/recipes/cv.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура 012_vim"
+              "title": "Структура cv"
             }
           }
         ],
@@ -242,41 +242,41 @@
   },
   "active": "410f5ecb51216603",
   "lastOpenFiles": [
-    "Programming/backend/Python/libs/pydantic.md",
-    "Programming/workflow/mac.md",
-    "Programming/workflow/Makefile.md",
-    "Programming/backend/Python/libs/pandas/002_work_with_text_data.md",
-    "Programming/backend/Python/libs/pandas/001_base.md",
-    "Programming/backend/Python/libs/pandas/007_datetime.md",
-    "Programming/backend/Python/libs/pandas/004_изменения_формы_данных_и_сводные_таблицы.md",
-    "Programming/backend/Python/libs/pandas/005_group_by.md",
-    "Programming/backend/Python/libs/pandas/009_visualization.md",
-    "Programming/backend/Python/base/011_virtualenv.md",
-    "Programming/linux/001_base_command.md",
-    "Programming/linux/002_file_system.md",
-    "Programming/backend/Python/base/006_obj.md",
-    "Programming/backend/Python/libs/alembic.md",
-    "Programming/backend/docker/docker.md",
-    "Programming/backend/docker/docker-compose.md",
-    "Programming/linux/tools/eza.md",
-    "Programming/backend/GO/packages/list.md",
+    "Programming/backend/Python/recipes/geo.md",
+    "Programming/backend/Python/recipes/create_projects.md",
+    "Programming/backend/Python/recipes/cv.md",
+    "Programming/backend/Python/libs/mathplotlib.md",
+    "Programming/backend/Python/libs/numpy.md",
     "Programming/backend/Python/recipes/grps.md",
+    "Programming/backend/Python/libs/001_list.md",
+    "Programming/backend/Python/libs/pandas/001_base.md",
+    "Programming/backend/Python/libs/manim.md",
+    "Programming/backend/Python/recipes/cli.md",
+    "Programming/backend/Python/base/013_генераторы.md",
+    "Programming/backend/Python/libs/pytest_faker.md",
+    "Programming/backend/Python/libs/request.md",
+    "Programming/backend/Python/base/modules/itertools.md",
+    "Programming/workflow/emoji.md",
+    "Programming/backend/GO/recipes/server/http.md",
+    "Programming/backend/GO/recipes/001_read_text_file.md",
+    "Programming/workflow/PhpStorm.md",
+    "Programming/backend/GO/recipes/server",
+    "Programming/backend/GO/recipes/Без названия.md",
+    "Programming/backend/Python/base/modules/pathlib.md",
+    "Programming/backend/Python/base/009_module.md",
+    "Programming/backend/Python/base/001_variable.md",
+    "Programming/backend/Python/base/modules",
+    "Programming/backend/Python/recipes/file.md",
+    "Programming/backend/Python/libs/grpc.md",
+    "Programming/backend/Python/base/005_function.md",
     "Programming/backend/GO/recipes/grpc/info.md",
-    "Programming/backend/php/frameworks/yii/001_info.md",
-    "Programming/monitoring/info.md",
     "Programming/backend/php/frameworks/yii",
-    "Programming/backend/php/frameworks/ншш.md",
-    "Programming/backend/Python/base/Dataclass.md",
-    "Programming/backend/Python/base/008_class.md",
-    "Programming/backend/Python/base/010_annotation.md",
     "Programming/monitoring/grafana",
     "Programming/monitoring",
     "Programming/security/base",
     "Programming/backend/docker/recipes",
     "Programming/backend/php/recipes",
     "Programming/security",
-    "Programming/secir",
-    "Programming/linux/bash/scripts/monitor_server",
-    "Programming/backend/elasticsearch"
+    "Programming/secir"
   ]
 }
