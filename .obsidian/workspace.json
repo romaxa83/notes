@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/backend/Python/recipes/cv.md",
+                "file": "Programming/backend/Python/libs/Jupyter.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cv"
+              "title": "Jupyter"
             }
           },
           {
@@ -213,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/backend/Python/recipes/cv.md",
+                "file": "Programming/backend/Python/libs/Jupyter.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура cv"
+              "title": "Структура Jupyter"
             }
           }
         ],
@@ -242,16 +242,24 @@
   },
   "active": "410f5ecb51216603",
   "lastOpenFiles": [
+    "Programming/workflow/mac.md",
+    "Programming/backend/Python/libs/Jupyter.md",
     "Programming/backend/Python/recipes/geo.md",
-    "Programming/backend/Python/recipes/create_projects.md",
-    "Programming/backend/Python/recipes/cv.md",
+    "Programming/backend/Python/libs/geo/geopandas.md",
+    "Programming/backend/Python/libs/geo/folium.md",
+    "Programming/backend/Python/libs/geo/Без названия",
+    "Programming/backend/Python/libs/geo",
+    "Programming/backend/Python/libs/faststream.md",
     "Programming/backend/Python/libs/mathplotlib.md",
     "Programming/backend/Python/libs/numpy.md",
+    "Programming/backend/Python/base/011_virtualenv.md",
+    "Programming/backend/Python/recipes/cli.md",
+    "Programming/backend/Python/recipes/cv.md",
+    "Programming/backend/Python/recipes/create_projects.md",
     "Programming/backend/Python/recipes/grps.md",
     "Programming/backend/Python/libs/001_list.md",
     "Programming/backend/Python/libs/pandas/001_base.md",
     "Programming/backend/Python/libs/manim.md",
-    "Programming/backend/Python/recipes/cli.md",
     "Programming/backend/Python/base/013_генераторы.md",
     "Programming/backend/Python/libs/pytest_faker.md",
     "Programming/backend/Python/libs/request.md",
@@ -263,20 +271,12 @@
     "Programming/backend/GO/recipes/server",
     "Programming/backend/GO/recipes/Без названия.md",
     "Programming/backend/Python/base/modules/pathlib.md",
-    "Programming/backend/Python/base/009_module.md",
-    "Programming/backend/Python/base/001_variable.md",
     "Programming/backend/Python/base/modules",
-    "Programming/backend/Python/recipes/file.md",
-    "Programming/backend/Python/libs/grpc.md",
-    "Programming/backend/Python/base/005_function.md",
-    "Programming/backend/GO/recipes/grpc/info.md",
     "Programming/backend/php/frameworks/yii",
     "Programming/monitoring/grafana",
     "Programming/monitoring",
     "Programming/security/base",
     "Programming/backend/docker/recipes",
-    "Programming/backend/php/recipes",
-    "Programming/security",
-    "Programming/secir"
+    "Programming/backend/php/recipes"
   ]
 }
