@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/backend/Python/libs/Jupyter.md",
+                "file": "Programming/backend/GO/base/001_start.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Jupyter"
+              "title": "001_start"
             }
           },
           {
@@ -135,7 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 317.5
   },
   "right": {
     "id": "e8e1beceea542f2a",
@@ -213,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/backend/Python/libs/Jupyter.md",
+                "file": "Programming/backend/GO/base/001_start.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Jupyter"
+              "title": "Структура 001_start"
             }
           }
         ],
@@ -242,8 +242,26 @@
   },
   "active": "410f5ecb51216603",
   "lastOpenFiles": [
-    "Programming/workflow/mac.md",
+    "Programming/backend/algoritms/Алгоритм сортировки Хоара.md",
+    "Programming/backend/algoritms/Алгоритм сортировка слиянием.md",
+    "Programming/backend/algoritms/Алгоритм сортировка пузырьком.md",
+    "Programming/backend/algoritms/Алгоритм Флойда-Уоршелла.md",
+    "Programming/backend/algoritms/Слияние двух упорядоченных списков.md",
+    "Programming/backend/algoritms/Бинарный поиск.md",
+    "Programming/backend/algoritms/Алгоритм Бойера-Мура-Хорспула.md",
+    "Programming/backend/algoritms/Алгоритм Дейкстры.md",
+    "Programming/backend/algoritms/Алгоритм Кнута-Морриса-Пратта.md",
+    "Programming/backend/algoritms/Алгоритм сортировки ставками.md",
+    "Programming/backend/algoritms/Алгоритм сортировки выбором.md",
     "Programming/backend/Python/libs/Jupyter.md",
+    "Programming/backend/Python/libs/pandas/001_base.md",
+    "Programming/backend/Python/base/004_loop.md",
+    "Programming/backend/Python/libs/pandas/005_group_by.md",
+    "Programming/backend/GO/base/001_start.md",
+    "Programming/workflow/mac.md",
+    "Programming/workflow/emoji.md",
+    "Programming/backend/Python/base/001_variable.md",
+    "Programming/backend/algoritms",
     "Programming/backend/Python/recipes/geo.md",
     "Programming/backend/Python/libs/geo/geopandas.md",
     "Programming/backend/Python/libs/geo/folium.md",
@@ -253,30 +271,12 @@
     "Programming/backend/Python/libs/mathplotlib.md",
     "Programming/backend/Python/libs/numpy.md",
     "Programming/backend/Python/base/011_virtualenv.md",
-    "Programming/backend/Python/recipes/cli.md",
-    "Programming/backend/Python/recipes/cv.md",
-    "Programming/backend/Python/recipes/create_projects.md",
-    "Programming/backend/Python/recipes/grps.md",
-    "Programming/backend/Python/libs/001_list.md",
-    "Programming/backend/Python/libs/pandas/001_base.md",
-    "Programming/backend/Python/libs/manim.md",
-    "Programming/backend/Python/base/013_генераторы.md",
-    "Programming/backend/Python/libs/pytest_faker.md",
-    "Programming/backend/Python/libs/request.md",
-    "Programming/backend/Python/base/modules/itertools.md",
-    "Programming/workflow/emoji.md",
-    "Programming/backend/GO/recipes/server/http.md",
-    "Programming/backend/GO/recipes/001_read_text_file.md",
-    "Programming/workflow/PhpStorm.md",
     "Programming/backend/GO/recipes/server",
-    "Programming/backend/GO/recipes/Без названия.md",
-    "Programming/backend/Python/base/modules/pathlib.md",
     "Programming/backend/Python/base/modules",
     "Programming/backend/php/frameworks/yii",
     "Programming/monitoring/grafana",
     "Programming/monitoring",
     "Programming/security/base",
-    "Programming/backend/docker/recipes",
-    "Programming/backend/php/recipes"
+    "Programming/backend/docker/recipes"
   ]
 }
