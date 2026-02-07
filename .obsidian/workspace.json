@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/backend/php/base/001_php_ini.md",
+                "file": "Programming/security/tools/wireshark.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "001_php_ini"
+              "title": "wireshark"
             }
           },
           {
@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/backend/GO/base/001_start.md",
+                "file": "Programming/backend/algoritms/Алгоритм сортировки ставками.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "001_start"
+              "title": "Алгоритм сортировки ставками"
             }
           },
           {
@@ -69,16 +69,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/linux/001_base_command.md",
+                "file": "Programming/workflow/emoji.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "001_base_command"
+              "title": "emoji"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#http",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -213,13 +212,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/backend/GO/base/001_start.md",
+                "file": "Programming/security/tools/wireshark.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура 001_start"
+              "title": "Структура wireshark"
             }
           }
         ],
@@ -240,43 +239,43 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "410f5ecb51216603",
+  "active": "940af27dda51ca2a",
   "lastOpenFiles": [
-    "Programming/backend/algoritms/Алгоритм сортировки Хоара.md",
-    "Programming/backend/algoritms/Алгоритм сортировка слиянием.md",
-    "Programming/backend/algoritms/Алгоритм сортировка пузырьком.md",
-    "Programming/backend/algoritms/Алгоритм Флойда-Уоршелла.md",
-    "Programming/backend/algoritms/Слияние двух упорядоченных списков.md",
-    "Programming/backend/algoritms/Бинарный поиск.md",
-    "Programming/backend/algoritms/Алгоритм Бойера-Мура-Хорспула.md",
-    "Programming/backend/algoritms/Алгоритм Дейкстры.md",
-    "Programming/backend/algoritms/Алгоритм Кнута-Морриса-Пратта.md",
-    "Programming/backend/algoritms/Алгоритм сортировки ставками.md",
-    "Programming/backend/algoritms/Алгоритм сортировки выбором.md",
-    "Programming/backend/Python/libs/Jupyter.md",
-    "Programming/backend/Python/libs/pandas/001_base.md",
-    "Programming/backend/Python/base/004_loop.md",
-    "Programming/backend/Python/libs/pandas/005_group_by.md",
-    "Programming/backend/GO/base/001_start.md",
-    "Programming/workflow/mac.md",
+    "Programming/security/OSI.md",
+    "Programming/security/network.md",
+    "Programming/security/tools/wireshark.md",
+    "Programming/security/tools/Ffuf.md",
+    "Programming/security/osint/email.md",
     "Programming/workflow/emoji.md",
+    "Programming/security/osint",
+    "Programming/linux/005_network.md",
+    "Programming/linux/006_monitor.md",
+    "Programming/backend/PHP/base/001_php_ini.md",
+    "Programming/monitoring/recipes/ss.md",
+    "Programming/monitoring/info.md",
+    "Programming/monitoring/recipes",
+    "Programming/security/link.md",
+    "Programming/linux/011_local_net.md",
+    "Programming/linux/007_user_group_perm.md",
+    "Programming/linux/recipes/links.md",
+    "Programming/linux/bash/scripts/monitor_server/io_analyzer.md",
+    "notes/85.md",
+    "notes",
+    "Programming/backend/PHP/enums/snippets_php/Трейт для получения название Enums.md",
     "Programming/backend/Python/base/001_variable.md",
+    "Programming/backend/Python/base/005_function.md",
+    "Programming/backend/Python/recipes/file.md",
+    "Programming/backend/Python/base/004_loop.md",
+    "Programming/backend/Python/recipes/stream.md",
+    "Programming/backend/Python/recipes/parser.md",
+    "Programming/backend/Python/recipes/cv.md",
+    "Programming/backend/Python/base/modules/pathlib.md",
+    "Programming/security/tools",
     "Programming/backend/algoritms",
-    "Programming/backend/Python/recipes/geo.md",
-    "Programming/backend/Python/libs/geo/geopandas.md",
-    "Programming/backend/Python/libs/geo/folium.md",
     "Programming/backend/Python/libs/geo/Без названия",
     "Programming/backend/Python/libs/geo",
-    "Programming/backend/Python/libs/faststream.md",
-    "Programming/backend/Python/libs/mathplotlib.md",
-    "Programming/backend/Python/libs/numpy.md",
-    "Programming/backend/Python/base/011_virtualenv.md",
     "Programming/backend/GO/recipes/server",
     "Programming/backend/Python/base/modules",
-    "Programming/backend/php/frameworks/yii",
-    "Programming/monitoring/grafana",
-    "Programming/monitoring",
-    "Programming/security/base",
-    "Programming/backend/docker/recipes"
+    "Programming/backend/PHP/frameworks/yii"
   ]
 }
