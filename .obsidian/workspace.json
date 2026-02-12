@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/security/tools/wireshark.md",
+                "file": "Programming/security/osint/info.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "wireshark"
+              "title": "info"
             }
           },
           {
@@ -212,13 +212,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/security/tools/wireshark.md",
+                "file": "Programming/security/osint/info.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура wireshark"
+              "title": "Структура info"
             }
           }
         ],
@@ -241,35 +241,35 @@
   },
   "active": "940af27dda51ca2a",
   "lastOpenFiles": [
-    "Programming/security/OSI.md",
-    "Programming/security/network.md",
     "Programming/security/tools/wireshark.md",
-    "Programming/security/tools/Ffuf.md",
+    "Programming/security/osint/info.md",
+    "Programming/backend/Python/libs/selenium.md",
+    "Programming/backend/Python/libs/sqlalchemy.md",
+    "Programming/backend/Python/libs/request.md",
+    "Programming/security/osint/google_dorks.md",
+    "Programming/linux/008_utils.md",
+    "Programming/linux/010_awk.md",
     "Programming/security/osint/email.md",
-    "Programming/workflow/emoji.md",
-    "Programming/security/osint",
+    "Programming/security/tools/Ffuf.md",
+    "Programming/security/tools/nmap.md",
     "Programming/linux/005_network.md",
     "Programming/linux/006_monitor.md",
-    "Programming/backend/PHP/base/001_php_ini.md",
-    "Programming/monitoring/recipes/ss.md",
-    "Programming/monitoring/info.md",
-    "Programming/monitoring/recipes",
-    "Programming/security/link.md",
-    "Programming/linux/011_local_net.md",
-    "Programming/linux/007_user_group_perm.md",
-    "Programming/linux/recipes/links.md",
-    "Programming/linux/bash/scripts/monitor_server/io_analyzer.md",
-    "notes/85.md",
-    "notes",
-    "Programming/backend/PHP/enums/snippets_php/Трейт для получения название Enums.md",
-    "Programming/backend/Python/base/001_variable.md",
+    "Programming/workflow/mac.md",
+    "Programming/security/network.md",
+    "Programming/backend/algoritms/Алгоритм Бойера-Мура-Хорспула.md",
+    "Programming/backend/Python/base/011_virtualenv.md",
+    "Programming/backend/Python/start.md",
+    "Programming/backend/algoritms/Бинарный поиск.md",
     "Programming/backend/Python/base/005_function.md",
-    "Programming/backend/Python/recipes/file.md",
+    "Programming/backend/Python/base/001_variable.md",
     "Programming/backend/Python/base/004_loop.md",
-    "Programming/backend/Python/recipes/stream.md",
-    "Programming/backend/Python/recipes/parser.md",
-    "Programming/backend/Python/recipes/cv.md",
-    "Programming/backend/Python/base/modules/pathlib.md",
+    "Programming/backend/Python/libs/index.md",
+    "Programming/backend/Python/base/009_module.md",
+    "Programming/backend/Python/base/013_генераторы.md",
+    "Programming/backend/Python/base/012_global_function.md",
+    "Programming/security/osint",
+    "Programming/monitoring/recipes",
+    "notes",
     "Programming/security/tools",
     "Programming/backend/algoritms",
     "Programming/backend/Python/libs/geo/Без названия",
