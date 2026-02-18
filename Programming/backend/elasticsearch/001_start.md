@@ -28,7 +28,7 @@
 ---
 #### 🔹 Стек elk-docker
  
- - https://elk-docker.readthedocs.io/
+- https://elk-docker.readthedocs.io/
 - https://habr.com/ru/post/282866/
 
 ==перед стартом образа нужно увеличить виртуальную память==

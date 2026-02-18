@@ -80,3 +80,14 @@ curl http://localhost:15692/metrics
 Если вы видите большой список метрик, начинающихся на `rabbitmq_`, значит всё настроено верно и Prometheus их заберет.
 
 ---
+##### 🔹 Установка на сервере
+
+- Сначало устанавливаем инсталятор (саму графану не ставим) - https://grafana.com/docs/grafana/latest/setup-grafana/installation/debian
+- Устанавливаем графану отсюда - https://grafana.com/grafana/download
+
+- grafana configurations folder - `/etc/grafana/`
+- grafana installation folder - `/usr/share/grafana`
+
+здесь скрипт по установки [[install_grafana_server_ubuntu]]
+
+---

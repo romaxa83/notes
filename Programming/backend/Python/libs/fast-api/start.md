@@ -3,6 +3,7 @@
 - Awesome FastAPI - https://github.com/mjhea0/awesome-fastapi
 - Фильтрация и пагинация в FastAPI - https://habr.com/ru/articles/714570/
 - https://fastapi.tiangolo.com/advanced/custom-response/#html-response
+- https://github.com/faststream-community/fastapi-dishka-faststream
 
 ```python
 print(json.dumps(data, ensure_ascii=False, indent=2))

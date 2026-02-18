@@ -64,6 +64,9 @@ poetry new myproject
 # Инициализация в существующем проекте
 poetry init
 
+# покажет все зависимости и их зависимости
+poetry show --tree
+
 # Установка зависимостей
 poetry add django requests
 
