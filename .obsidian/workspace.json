@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/security/osint/info.md",
+                "file": "Programming/backend/JavaScripts/Vue/libs/Ionic.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "info"
+              "title": "Ionic"
             }
           },
           {
@@ -212,13 +212,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/security/osint/info.md",
+                "file": "Programming/backend/JavaScripts/Vue/libs/Ionic.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура info"
+              "title": "Структура Ionic"
             }
           }
         ],
@@ -241,13 +241,22 @@
   },
   "active": "940af27dda51ca2a",
   "lastOpenFiles": [
+    "Programming/backend/algoritms/Хеш-таблица.md",
+    "Programming/backend/JavaScripts/TypeScript/vue.md",
+    "Programming/backend/JavaScripts/TypeScript/base.md",
+    "Programming/backend/JavaScripts/TypeScript/001_start.md",
+    "Programming/backend/JavaScripts/Vue/libs/Ionic.md",
+    "Programming/backend/JavaScripts/Vue/libs/Ionic_exampl.md",
+    "Programming/backend/Python/base/001_variable.md",
+    "Programming/backend/JavaScripts/Vue/libs",
+    "Programming/backend/JavaScripts/Vue",
+    "Programming/security/osint/info.md",
     "Programming/monitoring/grafana/001_info.md",
     "Programming/linux/bash/scripts/monitor_server/install_grafana_server_ubuntu.md",
     "Programming/linux/bash/scripts/monitor_server/install_prometheus_windows_exporter.md",
     "Programming/monitoring/prometheus.md",
     "Programming/linux/bash/scripts/monitor_server/install_prometheus_node_exporter.md",
     "Programming/linux/006_monitor.md",
-    "Programming/backend/algoritms/Хеш-таблица.md",
     "Programming/backend/Python/libs/numpy.md",
     "Programming/backend/Python/libs/fast-api/auth.md",
     "Programming/backend/Python/libs/fast-api/analizator_code.md",
@@ -255,18 +264,11 @@
     "Programming/backend/Python/base/012_global_function.md",
     "Programming/backend/Python/base/009_module.md",
     "Programming/backend/Python/base/002_conditional.md",
-    "Programming/backend/Python/base/001_variable.md",
     "Programming/backend/Python/base/011_virtualenv.md",
     "Programming/backend/Python/libs/001_list.md",
     "Programming/backend/Python/libs/index.md",
     "Programming/backend/Python/libs/faststream.md",
     "Programming/backend/Python/libs/mathplotlib.md",
-    "Programming/backend/Python/libs/request.md",
-    "Programming/backend/Python/recipes/create_projects.md",
-    "Programming/backend/Python/recipes/cli.md",
-    "Programming/backend/Python/start.md",
-    "Programming/backend/Python/libs/fast-api/start.md",
-    "Programming/security/osint/info.md",
     "Programming/security/osint",
     "Programming/monitoring/recipes",
     "notes",
@@ -274,8 +276,6 @@
     "Programming/backend/algoritms",
     "Programming/backend/Python/libs/geo/Без названия",
     "Programming/backend/Python/libs/geo",
-    "Programming/backend/GO/recipes/server",
-    "Programming/backend/Python/base/modules",
-    "Programming/backend/PHP/frameworks/yii"
+    "Programming/backend/GO/recipes/server"
   ]
 }
