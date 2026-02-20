@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/backend/JavaScripts/Vue/libs/Ionic.md",
+                "file": "Programming/backend/Python/libs/db/piccolo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ionic"
+              "title": "piccolo"
             }
           },
           {
@@ -212,13 +212,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/backend/JavaScripts/Vue/libs/Ionic.md",
+                "file": "Programming/backend/Python/libs/db/piccolo.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Ionic"
+              "title": "Структура piccolo"
             }
           }
         ],
@@ -241,13 +241,26 @@
   },
   "active": "940af27dda51ca2a",
   "lastOpenFiles": [
+    "Programming/backend/Python/libs/db/sqlalchemy.md",
+    "Programming/backend/Python/libs/db/piccolo.md",
+    "Programming/backend/Python/recipes/grps.md",
+    "Programming/backend/Python/libs/db",
+    "Programming/workflow/emoji.md",
+    "Programming/backend/Python/libs/pydantic.md",
+    "Programming/backend/Python/recipes/create_projects.md",
+    "Programming/backend/Python/recipes/geo.md",
+    "Programming/backend/Python/libs/poetry.md",
+    "Programming/backend/Python/base/011_virtualenv.md",
+    "Programming/backend/Python/libs/fast-api/start.md",
+    "Programming/backend/GO/recipes/grpc/info.md",
     "Programming/backend/algoritms/Хеш-таблица.md",
+    "Programming/backend/Python/base/003_str.md",
+    "Programming/backend/Python/base/001_variable.md",
+    "Programming/backend/JavaScripts/Vue/libs/Ionic.md",
     "Programming/backend/JavaScripts/TypeScript/vue.md",
     "Programming/backend/JavaScripts/TypeScript/base.md",
     "Programming/backend/JavaScripts/TypeScript/001_start.md",
-    "Programming/backend/JavaScripts/Vue/libs/Ionic.md",
     "Programming/backend/JavaScripts/Vue/libs/Ionic_exampl.md",
-    "Programming/backend/Python/base/001_variable.md",
     "Programming/backend/JavaScripts/Vue/libs",
     "Programming/backend/JavaScripts/Vue",
     "Programming/security/osint/info.md",
@@ -257,25 +270,12 @@
     "Programming/monitoring/prometheus.md",
     "Programming/linux/bash/scripts/monitor_server/install_prometheus_node_exporter.md",
     "Programming/linux/006_monitor.md",
-    "Programming/backend/Python/libs/numpy.md",
-    "Programming/backend/Python/libs/fast-api/auth.md",
-    "Programming/backend/Python/libs/fast-api/analizator_code.md",
-    "Programming/backend/Python/base/010_annotation.md",
-    "Programming/backend/Python/base/012_global_function.md",
-    "Programming/backend/Python/base/009_module.md",
-    "Programming/backend/Python/base/002_conditional.md",
-    "Programming/backend/Python/base/011_virtualenv.md",
-    "Programming/backend/Python/libs/001_list.md",
-    "Programming/backend/Python/libs/index.md",
-    "Programming/backend/Python/libs/faststream.md",
-    "Programming/backend/Python/libs/mathplotlib.md",
     "Programming/security/osint",
     "Programming/monitoring/recipes",
     "notes",
     "Programming/security/tools",
     "Programming/backend/algoritms",
     "Programming/backend/Python/libs/geo/Без названия",
-    "Programming/backend/Python/libs/geo",
-    "Programming/backend/GO/recipes/server"
+    "Programming/backend/Python/libs/geo"
   ]
 }
