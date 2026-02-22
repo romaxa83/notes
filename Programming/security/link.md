@@ -5,3 +5,5 @@
 
 Поиск лиц онлайн - https://pimeyes.com/ru
 Список инструментов для - https://osintframework.com/
+
+Hacking Cheatsheets - https://github.com/Ilias1988/Hacking-Cheatsheets
