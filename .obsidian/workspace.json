@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/backend/Python/libs/db/piccolo.md",
+                "file": "Programming/backend/Python/libs/001_list.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "piccolo"
+              "title": "001_list"
             }
           },
           {
@@ -212,13 +212,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/backend/Python/libs/db/piccolo.md",
+                "file": "Programming/backend/Python/libs/001_list.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура piccolo"
+              "title": "Структура 001_list"
             }
           }
         ],
@@ -241,13 +241,21 @@
   },
   "active": "940af27dda51ca2a",
   "lastOpenFiles": [
+    "Programming/backend/JavaScripts/Vue/libs/Ionic.md",
+    "Programming/backend/Python/libs/001_list.md",
+    "Programming/backend/Python/libs/index.md",
+    "Programming/backend/Python/recipes/cli.md",
+    "Programming/backend/Python/libs/loguru.md",
+    "Programming/backend/Python/libs/beautifulsoup.md",
+    "Programming/backend/Python/recipes/parser.md",
+    "Programming/backend/Python/libs/manim.md",
+    "Programming/workflow/emoji.md",
+    "Programming/backend/Python/libs/db/piccolo.md",
     "Programming/backend/Python/recipes/grps.md",
     "Programming/security/link.md",
-    "Programming/backend/Python/libs/db/piccolo.md",
     "Programming/backend/Python/libs/db/sqlalchemy.md",
     "Programming/backend/Python/libs/db",
-    "Programming/workflow/emoji.md",
-    "Programming/backend/Python/libs/pydantic.md",
+    "Programming/backend/Python/libs/db/pydantic.md",
     "Programming/backend/Python/recipes/create_projects.md",
     "Programming/backend/Python/recipes/geo.md",
     "Programming/backend/Python/libs/poetry.md",
@@ -257,19 +265,11 @@
     "Programming/backend/algoritms/Хеш-таблица.md",
     "Programming/backend/Python/base/003_str.md",
     "Programming/backend/Python/base/001_variable.md",
-    "Programming/backend/JavaScripts/Vue/libs/Ionic.md",
     "Programming/backend/JavaScripts/TypeScript/vue.md",
     "Programming/backend/JavaScripts/TypeScript/base.md",
     "Programming/backend/JavaScripts/TypeScript/001_start.md",
-    "Programming/backend/JavaScripts/Vue/libs/Ionic_exampl.md",
     "Programming/backend/JavaScripts/Vue/libs",
     "Programming/backend/JavaScripts/Vue",
-    "Programming/security/osint/info.md",
-    "Programming/monitoring/grafana/001_info.md",
-    "Programming/linux/bash/scripts/monitor_server/install_grafana_server_ubuntu.md",
-    "Programming/linux/bash/scripts/monitor_server/install_prometheus_windows_exporter.md",
-    "Programming/monitoring/prometheus.md",
-    "Programming/linux/bash/scripts/monitor_server/install_prometheus_node_exporter.md",
     "Programming/security/osint",
     "Programming/monitoring/recipes",
     "notes",
